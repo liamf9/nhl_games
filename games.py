@@ -9,7 +9,6 @@ watch = []
 try:
 	request = requests.get(url)
 except requests.exceptions.RequestException as e:
-	##print e
 	print("Possible network error.  Is internet connection enabled?")
 	exit(1)
 
